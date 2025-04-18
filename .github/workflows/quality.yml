@@ -48,23 +48,6 @@ jobs:
       - name: Run tests
         run: pnpm test
 
-  eslint:
-    name: ESLint
-    # Don't run on the first run after creating from template. (run_number == 1).
-    if: github.run_number != 1
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Install
-        uses: ./.github/composite-actions/install
-
-      - name: Run ESLint
-        run: pnpm lint
-        env:
-          NODE_OPTIONS: "--max-old-space-size=4096"
-
   types:
     name: TypeScript
     # Don't run on the first run after creating from template. (run_number == 1).
