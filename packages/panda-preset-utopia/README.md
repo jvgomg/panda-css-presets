@@ -1,10 +1,10 @@
 # panda-preset-utopia
 
-A [Panda CSS][panda-github] [preset][panda-docs-presets] that generates fluid and responsive scales using the [Utopia](utopia) approach. 
+A [Panda CSS][panda-github] [preset][panda-docs-presets] that generates fluid and responsive scales using the [Utopia][utopia] approach. 
 
-This preset generates `fontSize` and `spacing` tokens using [`utopia-core`](utopia-core-github).
+This preset generates `fontSize` and `spacing` tokens using [`utopia-core`][utopia-core-github].
 
-This repository and package inspired by the work of [amandaguthrie/panda-css-presets](inspiration).
+This repository and package inspired by the work of [amandaguthrie/panda-css-presets][inspiration].
 
 ## Contents
 
@@ -107,7 +107,7 @@ export default defineConfig({
 
 <!-- Internal Links -->
 
-[license]: LICENSE.md
+[license]: LICENSE
 
 <!-- External Links -->
 
