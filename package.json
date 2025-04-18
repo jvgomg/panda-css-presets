@@ -19,7 +19,7 @@
     "reset": "pnpm -r --parallel exec rimraf node_modules dist && rimraf node_modules dist",
     "format": "pnpm biome lint packages",
     "format:fix": "pnpm biome check --write packages",
-    "test": "pnpm -r --parallel --filter=./packages/** test --if-present",
+    "test": "pnpm -r --parallel --filter=./packages/** test",
     "typecheck": "tsc --noEmit",
     "release": "changeset publish",
     "release:dev:version": "changeset version --snapshot dev",

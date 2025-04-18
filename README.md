@@ -18,7 +18,7 @@ A collection of Panda CSS presets…
 
 ### GitHub Repository
 
-- [ ] Set an NPM auth token as a GitHub secret with key `NPM_TOKEN` to be used to publish to NPM via release workflow.
+- [x] Set an NPM auth token as a GitHub secret with key `NPM_TOKEN` to be used to publish to NPM via release workflow.
 - [ ] Set a GitHub personal access token as a GitHub secret with key `GH_PAT` to automate changeset pull requests via
   release workflow.
 
@@ -66,9 +66,9 @@ For each template:
 
 ##### `package.json`
 
-- [ ] Update `name`
+- [x] Update `name`
 - [x] Update `description`
 - [x] Update `author`
 - [x] Update `repository.url` and `repository.directory`
-- [ ] Remove `private` if publishing to registry
+- [x] Remove `private` if publishing to registry
 - [x] If npm registry is public, update `publishConfig`

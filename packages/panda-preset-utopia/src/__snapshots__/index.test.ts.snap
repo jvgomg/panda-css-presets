@@ -1,0 +1,145 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`panda css utopia > pandaPresetUtopiaTypeScale > generates successful config 1`] = `
+{
+  "name": "utopia-type-scale",
+  "theme": {
+    "extend": {
+      "semanticTokens": {
+        "fontSizes": {
+          "-1": {
+            "description": "-1",
+            "value": "clamp(0.9375rem, 0.9158rem + 0.1087vw, 1rem)",
+          },
+          "-2": {
+            "description": "-2",
+            "value": "clamp(0.7813rem, 0.7747rem + 0.0326vw, 0.8rem)",
+          },
+          "0": {
+            "description": "0",
+            "value": "clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem)",
+          },
+          "1": {
+            "description": "1",
+            "value": "clamp(1.35rem, 1.2761rem + 0.3696vw, 1.5625rem)",
+          },
+          "2": {
+            "description": "2",
+            "value": "clamp(1.62rem, 1.5041rem + 0.5793vw, 1.9531rem)",
+          },
+          "3": {
+            "description": "3",
+            "value": "clamp(1.944rem, 1.771rem + 0.8651vw, 2.4414rem)",
+          },
+          "4": {
+            "description": "4",
+            "value": "clamp(2.3328rem, 2.0827rem + 1.2504vw, 3.0518rem)",
+          },
+          "5": {
+            "description": "5",
+            "value": "clamp(2.7994rem, 2.4462rem + 1.7658vw, 3.8147rem)",
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`panda css utopia > pandaPresetUtopiaTypeScale > generates successful config 2`] = `
+{
+  "name": "utopia-space-scale",
+  "theme": {
+    "extend": {
+      "semanticTokens": {
+        "spacing": {
+          "2xl": {
+            "description": "2xl",
+            "value": "clamp(4.5rem, 4.3261rem + 0.8696vw, 5rem)",
+          },
+          "2xl-3xl": {
+            "description": "2xl-3xl",
+            "value": "clamp(4.5rem, 3.8913rem + 3.0435vw, 6.25rem)",
+          },
+          "2xs": {
+            "description": "2xs",
+            "value": "clamp(0.5625rem, 0.5408rem + 0.1087vw, 0.625rem)",
+          },
+          "2xs-xs": {
+            "description": "2xs-xs",
+            "value": "clamp(0.5625rem, 0.4321rem + 0.6522vw, 0.9375rem)",
+          },
+          "3xl": {
+            "description": "3xl",
+            "value": "clamp(5.625rem, 5.4076rem + 1.087vw, 6.25rem)",
+          },
+          "3xl-4xl": {
+            "description": "3xl-4xl",
+            "value": "clamp(5.625rem, 4.9728rem + 3.2609vw, 7.5rem)",
+          },
+          "3xs": {
+            "description": "3xs",
+            "value": "clamp(0.3125rem, 0.3125rem + 0vw, 0.3125rem)",
+          },
+          "3xs-2xs": {
+            "description": "3xs-2xs",
+            "value": "clamp(0.3125rem, 0.2038rem + 0.5435vw, 0.625rem)",
+          },
+          "4xl": {
+            "description": "4xl",
+            "value": "clamp(6.75rem, 6.4891rem + 1.3043vw, 7.5rem)",
+          },
+          "l": {
+            "description": "l",
+            "value": "clamp(2.25rem, 2.163rem + 0.4348vw, 2.5rem)",
+          },
+          "l-3xl": {
+            "description": "l-3xl",
+            "value": "clamp(2.25rem, 0.8587rem + 6.9565vw, 6.25rem)",
+          },
+          "l-xl": {
+            "description": "l-xl",
+            "value": "clamp(2.25rem, 1.7283rem + 2.6087vw, 3.75rem)",
+          },
+          "m": {
+            "description": "m",
+            "value": "clamp(1.6875rem, 1.6223rem + 0.3261vw, 1.875rem)",
+          },
+          "m-l": {
+            "description": "m-l",
+            "value": "clamp(1.6875rem, 1.4049rem + 1.413vw, 2.5rem)",
+          },
+          "s": {
+            "description": "s",
+            "value": "clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem)",
+          },
+          "s-l": {
+            "description": "s-l",
+            "value": "clamp(1.125rem, 0.6467rem + 2.3913vw, 2.5rem)",
+          },
+          "s-m": {
+            "description": "s-m",
+            "value": "clamp(1.125rem, 0.8641rem + 1.3043vw, 1.875rem)",
+          },
+          "xl": {
+            "description": "xl",
+            "value": "clamp(3.375rem, 3.2446rem + 0.6522vw, 3.75rem)",
+          },
+          "xl-2xl": {
+            "description": "xl-2xl",
+            "value": "clamp(3.375rem, 2.8098rem + 2.8261vw, 5rem)",
+          },
+          "xs": {
+            "description": "xs",
+            "value": "clamp(0.875rem, 0.8533rem + 0.1087vw, 0.9375rem)",
+          },
+          "xs-s": {
+            "description": "xs-s",
+            "value": "clamp(0.875rem, 0.7446rem + 0.6522vw, 1.25rem)",
+          },
+        },
+      },
+    },
+  },
+}
+`;

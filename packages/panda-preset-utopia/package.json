@@ -1,0 +1,51 @@
+{
+	"name": "panda-preset-utopia",
+	"private": "false",
+	"version": "0.0.0",
+	"description": "Generate fluid and responsive tokens for Panda CSS using Utopia",
+	"author": {
+		"name": "James Greenaway",
+		"url": "https://github.com/jvgomg"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jvgomg/panda-css-presets.git",
+		"directory": "packages/panda-preset-utopia"
+	},
+	"license": "MIT",
+	"main": "dist/index.js",
+	"module": "dist/index.mjs",
+	"svelte": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"exports": {
+		".": {
+			"require": "./dist/index.js",
+			"source": "./src/index.ts",
+			"svelte": "./dist/index.js",
+			"types": "./dist/index.d.ts",
+			"import": {
+				"types": "./dist/index.d.mts",
+				"default": "./dist/index.mjs"
+			}
+		},
+		"./package.json": "./package.json"
+	},
+	"files": [
+		"dist"
+	],
+	"side-effects": false,
+	"scripts": {
+		"build": "tsup --entry src/index.ts --entry src/index.ts --format=esm,cjs --dts",
+		"build-fast": "tsup --entry src/index.ts --entry src/index.ts --format=esm,cjs --no-dts",
+		"dev": "pnpm build-fast --watch",
+		"test": "vitest run"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"devDependencies": {
+		"@pandacss/types": "^0.53.4",
+		"utopia-core": "^1.6.0",
+		"vitest": "^3.1.1"
+	}
+}
