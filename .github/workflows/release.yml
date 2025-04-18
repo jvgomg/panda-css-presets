@@ -19,7 +19,7 @@ jobs:
     # Don't run on forks by default.
     # Don't run on the first run after creating from template. (run_number == 1).
     if: |
-      github.repository == 'amandaguthrie/template-pnpm-typescript-monorepo' && 
+      github.repository == 'jvgomg/panda-css-presets' && 
       github.run_number != 1
     name: Release
     runs-on: ubuntu-latest

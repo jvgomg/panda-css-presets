@@ -1,4 +1,8 @@
-# template-pnpm-typescript-monorepo
+# Panda CSS Presets
+
+A collection of Panda CSS presets…
+
+---
 
 ## Highlights
 
@@ -30,11 +34,11 @@
 
 ##### `composite-actions/install/action.yml`
 
-- [ ] Update `Setup Git User` command email and name
+- [x] Update `Setup Git User` command email and name
 
 ##### `ISSUE_TEMPLATE` directory
 
-- [ ] Update `config.yml` with repository discussions link
+- [x] Update `config.yml` with repository discussions link
 
 For each template:
 
@@ -56,15 +60,15 @@ For each template:
 - Runs on branch `main` for any pushes that contain changes in `.changeset` or `packages`.
 - Builds and publishes packages if there is a changeset version, otherwise releases changes to the `dev` tag.
 
-- [ ] Update repository in if statement to your repo
+- [x] Update repository in if statement to your repo
 
 #### `packages/_template` directory
 
 ##### `package.json`
 
 - [ ] Update `name`
-- [ ] Update `description`
-- [ ] Update `author`
-- [ ] Update `repository.url` and `repository.directory`
+- [x] Update `description`
+- [x] Update `author`
+- [x] Update `repository.url` and `repository.directory`
 - [ ] Remove `private` if publishing to registry
-- [ ] If npm registry is public, update `publishConfig`
+- [x] If npm registry is public, update `publishConfig`

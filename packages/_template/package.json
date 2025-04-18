@@ -4,12 +4,12 @@
 	"version": "0.0.0",
 	"description": "A template for packages",
 	"author": {
-		"name": "Amanda Guthrie",
-		"url": "https://github.com/amandaguthrie"
+		"name": "James Greenaway",
+		"url": "https://github.com/jvgomg"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/amandaguthrie/template-pnpm-typescript-monorepo.git",
+		"url": "https://github.com/jvgomg/panda-css-presets.git",
 		"directory": "packages/_template"
 	},
 	"license": "MIT",
@@ -39,6 +39,6 @@
 		"test": "node --import tsx tests/test.mts"
 	},
 	"publishConfig": {
-		"access": "restricted"
+		"access": "public"
 	}
 }

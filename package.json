@@ -1,16 +1,16 @@
 {
-  "name": "monorepo-template-ts-pnpm",
+  "name": "panda-css-presets",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "keywords": [],
   "author": {
-    "name": "Amanda Guthrie",
-    "url": "https://github.com/amandaguthrie"
+    "name": "James Greenaway",
+    "url": "https://github.com/jvgomg"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/amandaguthrie/template-pnpm-typescript-monorepo.git"
+    "url": "https://github.com/jvgomg/panda-css-presets.git"
   },
   "license": "MIT",
   "scripts": {
