@@ -1,7 +1,7 @@
 {
 	"name": "panda-preset-utopia",
 	"private": "false",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "Generate fluid and responsive tokens for Panda CSS using Utopia",
 	"author": {
 		"name": "James Greenaway",
